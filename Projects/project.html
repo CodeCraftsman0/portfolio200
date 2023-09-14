@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio404 Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta name="content" content="portfolio website, personal portfolio website, unique portfolio, portfolio design">
+    <meta name="description" content="welcome to my portfolio website, I Am Beginner frontend developer">
+    <link rel="stylesheet" href="/Projects/project.css">
+
+</head>
+
+<body>
+
+
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- partial:index.partial.html -->
+    <div class="container">
+
+
+        <header>
+            <div class="inner">
+                <!-- <div class="logo"><img src="#"></div> -->
+                <div class="burger"></div>
+                <nav>
+                    <a href="/index.html">Home</a>
+                    <a href="/skills/skills.html">About Us</a>
+                    <a href="/skills/skills.html">Skills</a>
+                    <a href="/iknow/index.html">I Know</a>
+                    <a class="active" href="/Projects/project.html">Our Projects</a>
+                    <a href="/contact/index.html">Contact us</a>
+                </nav>
+                <a href="/index.html" class="donate-link">Back </a>
+            </div>
+        </header>
+
+        <!-- Container for all sliders, and pagination -->
+        <main class="sliders-container">
+
+            <!-- Simple pagination for the slider -->
+            <ul class="pagination">
+                <li class="pagination__item"><a class="pagination__button"></a></li>
+                <li class="pagination__item"><a class="pagination__button"></a></li>
+                <li class="pagination__item"><a class="pagination__button"></a></li>
+                <li class="pagination__item"><a class="pagination__button"></a></li>
+                <li class="pagination__item"><a class="pagination__button"></a></li>
+                <li class="pagination__item"><a class="pagination__button"></a></li>
+                <li class="pagination__item"><a class="pagination__button"></a></li>
+                <li class="pagination__item"><a class="pagination__button"></a></li>
+                <li class="pagination__item"><a class="pagination__button"></a></li>
+                <li class="pagination__item"><a class="pagination__button"></a></li>
+            </ul>
+        </main>
+        <footer class="footer">
+            <nav class="footer__menu">
+                <ul class="footer__menu__list">
+                    <li class="footer__menu__item"><a class="footer__menu__link"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="footer__menu__item"><a class="footer__menu__link"><i class="fa-brands fa-dev"></i></a></li>
+                    <li class="footer__menu__item"><a class="footer__menu__link"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </nav>
+            
+        </footer>
+
+
+
+
+       
+    </div>
+
+   
+    <!-- partial -->
+    <script src='https://rawgit.com/lmgonzalves/momentum-slider/master/dist/momentum-slider.min.js'></script>
+    <script src="/Projects/project.js"></script>
+
+</body>
+<script>
+    // JavaScript to hide the preloader once the content is loaded
+    window.addEventListener("load", function () {
+        var preloader = document.querySelector(".preloader");
+        preloader.style.display = "none";
+    });
+
+</script>
+
+</html>
